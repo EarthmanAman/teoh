@@ -13,6 +13,9 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --medium-blue: #23A5D9;
+    --medium-green:  #4ade80;
+    
   }
 }
 
@@ -24,4 +27,40 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+h1 {
+  @apply text-5xl font-bold text-[#0D0D0D] uppercase mb-8 leading-[60px]
+}
+
+h3 {
+  @apply text-3xl font-bold text-[#FEFEFE] uppercase mb-8 leading-[60px]
+}
+
+h4 {
+  @apply text-2xl font-bold text-[#0D0D0D] uppercase leading-[60px]
+}
+
+h5 {
+  @apply text-xl font-bold text-[#0D0D0D] uppercase leading-[60px]
+}
+
+h6 {
+  @apply text-sm font-bold text-[#0D0D0D] uppercase
+}
+
+
+p {
+  @apply text-lg text-gray-700
+}
+li {
+  @apply text-lg font-medium text-[#0D0D0D]
+}
+
+.circle {
+  width: 650px;
+  height: 550px;
+  background: linear-gradient(to bottom, #23A5D9 70%, #4ade80 30%);
+  filter: blur(100px);
+  opacity: 40%;
 }

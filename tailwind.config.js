@@ -10,8 +10,18 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'world' : "url('../../public/hero/comp.png')",
+        'banner' : "url('../../public/hero/office.jpg')",
       },
+      colors: {
+        "medium-blue-color": "var(--medium-blue)",
+        "medium-green-color": "var(--medium-green)",
+      },
+
+      skew: {
+        '20': '20deg',
+      }
     },
   },
   plugins: [],
