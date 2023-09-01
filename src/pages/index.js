@@ -12,6 +12,7 @@ import Footer from '@/components/footer'
 import CopyRight from '@/components/copyright'
 
 import Logo from "../../public/testimonials/avatar.jpg"
+import Steps from '@/components/steps'
 
 
 const imageLoader = require("../loader");
@@ -25,6 +26,7 @@ export default function Home() {
       <MiniBlog />
       <Banner />
       <Services />
+      <Steps />
       <Testimonials />
       <FloatingWhatsApp accountName='TeOH Kenya' phoneNumber='254701467872' avatar="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
       <Footer />
