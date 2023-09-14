@@ -22,6 +22,13 @@ export default function Benefits(){
               }
             },
             {
+              breakpoint: 860,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+              }
+            },
+            {
               breakpoint: 600,
               settings: {
                 slidesToShow: 2,
@@ -39,7 +46,7 @@ export default function Benefits(){
       };
 
     return (
-        <div className="md:px-36 py-8 bg-[#2a363f] w-[100%]">
+        <div className="md:px-16 lg:px-36 py-8 bg-[#2a363f] w-[100%]">
             {/* <div className="text-center">
                 <h4 className="text-white">Benefits of Using Us</h4>
             </div> */}

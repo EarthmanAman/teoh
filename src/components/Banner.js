@@ -7,7 +7,7 @@ export default function Banner (){
                     <p className="text-4xl md:text-6xl uppercase text-white w-[100%] md:w-[80%] pr-5 md:pr-0">Your one stop shop for all Programming needs</p>
                 </div>
                 
-                <div className="flex-1  hidden md:block">
+                <div className="flex-1  hidden lg:block">
                     
                     <div className="bg-black h-full -skew-x-20 w-[120%]">
                         <p> </p>

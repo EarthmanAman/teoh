@@ -6,8 +6,8 @@ const imageLoader = require("../loader");
 
 export default function MiniBlog(){
     return (
-        <div className="px-10 md:px-36 py-12 md:py-24">
-            <div className="flex flex-wrap-reverse items-center">
+        <div className="px-10 md:px-16 lg:px-32 py-12 md:py-24">
+            <div className="flex flex-col-reverse lg:flex-row items-center">
                 {/* MAIN */}
                 <div className="flex-1 md:pr-10">
                     {/* TITLE */}
@@ -28,7 +28,7 @@ export default function MiniBlog(){
                 </div>
             </div>
 
-            <div className="flex flex-wrap md:space-x-8 mt-10">
+            <div className="flex flex-col lg:flex-row lg:space-x-8 mt-10">
                 <div className="flex-1 border-[1px] border-black px-6 md:px-10 py-5 md:py-8 mb-5">
                     <div>
                         <h6 className="text-medium-blue-color">Our Mission</h6>

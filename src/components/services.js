@@ -9,7 +9,7 @@ const imageLoader = require("../loader");
 
 export default function Services(){
     return (
-        <div className=" px-8 md:px-36 py-16 md:py-28 bg-[#eee]">
+        <div className=" px-8 md:px-16 lg:px-36 py-16 md:py-28 bg-[#eee]">
             {/* TITLE */}
             <div className="text-center px-[10%] md:px-[20%]">
                 <h4>Our services</h4>
@@ -17,7 +17,7 @@ export default function Services(){
             </div>
 
             {/* SERVICES */}
-            <div className="flex flex-wrap space-y-3 md:space-x-10 mt-10 md:mt-16">
+            <div className="flex flex-wrap space-y-3 md:space-x-8 lg:space-x-10 mt-10 md:mt-16">
                 {/* SERVICE */}
                 <div className="flex-1 shadow-lg px-10 py-10 rounded-lg bg-white">
                     <div className="max-h-[250px] rounded-lg overflow-hidden">

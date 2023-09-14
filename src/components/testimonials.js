@@ -28,11 +28,19 @@ export default function Testimonials(){
                 dots: true
               }
             },
+
+            {
+                breakpoint: 860,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                }
+              },
             {
               breakpoint: 600,
               settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToShow: 1,
+                slidesToScroll: 1,
               }
             },
             {
@@ -45,7 +53,7 @@ export default function Testimonials(){
           ]
       };
     return (
-        <div className="px-8 md:px-36 py-16 md:py-28 ">
+        <div className="px-8 md:px-16 lg:px-36 py-16 md:py-28 ">
             <div className="text-center">
                 <h4>What our client say</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
