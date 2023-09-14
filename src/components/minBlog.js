@@ -6,12 +6,12 @@ const imageLoader = require("../loader");
 
 export default function MiniBlog(){
     return (
-        <div className="px-36 py-24">
-            <div className="flex items-center">
+        <div className="px-10 md:px-36 py-12 md:py-24">
+            <div className="flex flex-wrap-reverse items-center">
                 {/* MAIN */}
-                <div className="flex-1 pr-10">
+                <div className="flex-1 md:pr-10">
                     {/* TITLE */}
-                    <div>
+                    <div className="my-3 md:my-0">
                         <h5 className="text-medium-blue-color">About us</h5>
                         <h4>Who are <span className="text-orange-700">we?</span></h4>
                     </div>
@@ -22,14 +22,14 @@ export default function MiniBlog(){
                 </div>
 
                 {/* SUB */}
-                <div className="flex-1 flex flex-col shadow-md rounded-lg ">
+                <div className="md:flex-1 flex flex-col shadow-md rounded-lg ">
                     {/* TOP */}
                     <Image loader={imageLoader} src={Team} className="w-[100%] h-auto rounded-lg opacity-70"/>
                 </div>
             </div>
 
-            <div className="flex space-x-8 mt-10">
-                <div className="flex-1 border-[1px] border-black px-10 py-8 mb-5">
+            <div className="flex flex-wrap md:space-x-8 mt-10">
+                <div className="flex-1 border-[1px] border-black px-6 md:px-10 py-5 md:py-8 mb-5">
                     <div>
                         <h6 className="text-medium-blue-color">Our Mission</h6>
                         <h5>Difference between Static and Dynamic Website</h5>
@@ -41,7 +41,7 @@ export default function MiniBlog(){
                 </div>
 
                 {/* BOTTOM */}
-                <div className="flex-1 border-[1px] border-black px-10 py-8 mb-5">
+                <div className="flex-1 border-[1px] border-black px-6 md:px-10 py-5 md:py-8 mb-5">
                     <div>
                         <h6 className="text-medium-blue-color">Our Vision</h6>
                         <h5>Difference between Static and Dynamic Website</h5>

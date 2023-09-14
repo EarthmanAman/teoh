@@ -2,35 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+   
     --medium-blue: #23A5D9;
     --medium-green:  #4ade80;
     
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
 h1 {
-  @apply text-5xl font-bold text-[#0D0D0D] uppercase mb-8 leading-[60px]
+  @apply text-2xl md:text-5xl font-bold text-[#0D0D0D] uppercase mb-5 md:mb-8 leading-[40px] md:leading-[60px]
 }
 
 h3 {
@@ -38,20 +21,20 @@ h3 {
 }
 
 h4 {
-  @apply text-2xl font-bold text-[#0D0D0D] uppercase leading-[60px]
+  @apply text-xl font-bold text-[#0D0D0D] uppercase md:leading-[60px]
 }
 
 h5 {
-  @apply text-xl font-bold text-[#0D0D0D] uppercase leading-[60px]
+  @apply text-xl font-bold text-[#0D0D0D] uppercase leading-[35px] md:leading-[60px]
 }
 
 h6 {
-  @apply text-sm font-bold text-[#0D0D0D] uppercase
+  @apply text-sm font-bold text-[#0D0D0D] uppercase mb-3
 }
 
 
 p {
-  @apply text-lg text-gray-700
+  @apply text-sm md:text-lg text-gray-700 leading-loose
 }
 li {
   @apply text-lg font-medium text-[#0D0D0D]

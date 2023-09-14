@@ -17,7 +17,9 @@
     "react-floating-whatsapp": "^5.0.8",
     "react-icons": "^4.10.1",
     "react-simple-star-rating": "^5.1.7",
+    "react-slick": "^0.29.0",
     "react-star-ratings": "^2.3.0",
+    "slick-carousel": "^1.8.1",
     "tailwindcss": "3.3.3"
   }
 }

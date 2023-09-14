@@ -9,18 +9,18 @@ const imageLoader = require("../loader");
 
 export default function Services(){
     return (
-        <div className="px-36 py-28 bg-[#eee]">
+        <div className=" px-8 md:px-36 py-16 md:py-28 bg-[#eee]">
             {/* TITLE */}
-            <div className="text-center px-[20%]">
+            <div className="text-center px-[10%] md:px-[20%]">
                 <h4>Our services</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
 
             {/* SERVICES */}
-            <div className="flex space-x-10 mt-16">
+            <div className="flex flex-wrap space-y-3 md:space-x-10 mt-10 md:mt-16">
                 {/* SERVICE */}
                 <div className="flex-1 shadow-lg px-10 py-10 rounded-lg bg-white">
-                    <div className="h-[250px] rounded-lg overflow-hidden">
+                    <div className="max-h-[250px] rounded-lg overflow-hidden">
                         <Image loader={imageLoader} src={Consulting} alt="service 1" className=" rounded-lg shadow-lg"/>
                     </div>
 
@@ -32,7 +32,7 @@ export default function Services(){
 
                 {/* SERVICE */}
                 <div className="flex-1 shadow-lg px-10 py-10 rounded-lg bg-white">
-                    <div className="h-[250px] rounded-lg overflow-hidden">
+                    <div className="max-h-[250px] rounded-lg overflow-hidden">
                         <Image loader={imageLoader} src={WebDesign} alt="service 1" className="rounded-lg shadow-lg"/>
                     </div>
 
@@ -44,7 +44,7 @@ export default function Services(){
 
                 {/* SERVICE */}
                 <div className="flex-1 shadow-lg px-10 py-10 rounded-lg bg-white">
-                    <div className="h-[250px] rounded-lg overflow-hidden">
+                    <div className="max-h-[250px] rounded-lg overflow-hidden">
                         <Image loader={imageLoader} src={UI_UX} alt="service 1" className="rounded-lg shadow-lg"/>
                     </div>
 

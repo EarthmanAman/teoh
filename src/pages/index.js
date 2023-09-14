@@ -19,7 +19,7 @@ const imageLoader = require("../loader");
 
 export default function Home() {
   return (
-    <Layout>
+    <div className='overflow-scroll'>
       <NavBar />
       <Hero />
       <Benefits />
@@ -31,6 +31,6 @@ export default function Home() {
       <FloatingWhatsApp accountName='TeOH Kenya' phoneNumber='254701467872' avatar="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
       <Footer />
       <CopyRight />
-    </Layout>
+    </div>
   )
 }

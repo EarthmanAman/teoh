@@ -2,10 +2,10 @@
 
 export default function Layout({children}) {
   return (
-    <main
-      className='bg-[#fefefe] min-h-[600px] py-5'
+    <div
+      className='bg-[#fefefe] min-h-[600px] py-5 w-[100%]'
     >
       {children}
-    </main>
+    </div>
   )
 }

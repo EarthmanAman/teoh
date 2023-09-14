@@ -6,11 +6,11 @@ const imageLoader = require("../loader");
 
 export default function NavBar(){
     return (
-        <div className="flex justify-between items-center px-36">
-            <div className="w-24">
+        <div className="flex justify-between items-center px-8 py-3 md:px-36">
+            <div className="w-20 md:w-24">
                 <Image loader={imageLoader} src={Logo} className="w-[100%] h-auto" alt="about" />
             </div>
-            <div>
+            <div className="hidden md:block">
                 <ul className="flex space-x-8 uppercase">
                     <li className="text-medium-blue-color"><Link href={""}>Home</Link></li>
                     <li><Link href={""}>About Us</Link></li>
@@ -22,7 +22,7 @@ export default function NavBar(){
 
             <div>
                 <Link href={""}>
-                    <button className="px-5 py-3 text-medium-blue-color border-2 border-medium-blue-color uppercase">Contact Us</button>
+                    <button className="px-3 py-2 mb:px-5 md:py-3 text-medium-blue-color border-2 border-medium-blue-color text-sm md:text-lg uppercase">Contact Us</button>
                 </Link>
             </div>
         </div>
