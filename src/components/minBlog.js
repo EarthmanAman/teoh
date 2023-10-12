@@ -17,7 +17,7 @@ export default function MiniBlog(){
                     </div>
                     
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget volutpat neque, vel varius nisl. Sed ut dapibus purus. Integer eget ante nec arcu ultrices interdum. Fusce tincidunt ligula eget quam bibendum, sed ultrices ipsum tempor. Duis eleifend libero ac libero tincidunt, eu dictum ex posuere. Quisque vitae vestibulum lorem. Aenean ut odio eu tellus interdum dictum. Nulla facilisi. Sed venenatis, nunc eget maximus posuere, tortor ipsum dictum justo, in tristique ipsum justo non est. Sed ut mi sit amet velit ullamcorper condimentum. Suspendisse potenti. Vivamus euismod erat at lectus auctor, non varius velit aliquam. Suspendisse potenti. Cras vestibulum lacinia justo, non consequat quam tincidunt eu. Sed non arcu vel enim eleifend tempus.</p>
+                        <p>At TeOH, we unite as a dedicated team of software developers with diverse skills and a shared passion for innovation, technology, and problem-solving. We offer cutting-edge UI/UX Design, advanced web and mobile application development, API management solutions, and expert IT Consultancy services, all meticulously tailored to meet the unique needs of varied industries. We are driven by the aspiration to leverage technology for solving real-world problems and fostering sustainable, tech-driven community development. At TeOH, we are more than developers; we are your innovative problem solvers and partners in progress, committed to helping your business navigate and thrive in this continuously evolving technological world.</p>
                     </div>
                 </div>
 
@@ -28,30 +28,21 @@ export default function MiniBlog(){
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row lg:space-x-8 mt-10">
+            {/* <div className="flex flex-col lg:flex-row lg:space-x-8 mt-10">
                 <div className="flex-1 border-[1px] border-black px-6 md:px-10 py-5 md:py-8 mb-5">
                     <div>
                         <h6 className="text-medium-blue-color">Our Mission</h6>
                         <h5>Difference between Static and Dynamic Website</h5>
                     </div>
-                    {/* <div className="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget volutpat neque, vel varius nisl. Sed ut dapibus purus. Nulla eget volutpat neque, vel varius nisl. Sed ut dapibus purus... <span className="text-blue-600">Read More</span></p>
-                    
-                    </div> */}
                 </div>
 
-                {/* BOTTOM */}
                 <div className="flex-1 border-[1px] border-black px-6 md:px-10 py-5 md:py-8 mb-5">
                     <div>
                         <h6 className="text-medium-blue-color">Our Vision</h6>
                         <h5>Difference between Static and Dynamic Website</h5>
                     </div>
-                    {/* <div className="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget volutpat neque, vel varius nisl. Sed ut dapibus purus... <span className="text-blue-600">Read More</span></p>
-                    
-                    </div> */}
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

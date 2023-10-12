@@ -4,7 +4,7 @@ export default function Banner (){
             <div className="flex flex-wrap"> 
                 <div className="flex-[2] pl-8 md:pl-36 py-24">
                     <h6 className="text-2xl mb-5 text-medium-blue-color">Our Unique Proposition</h6>
-                    <p className="text-4xl md:text-6xl uppercase text-white w-[100%] md:w-[80%] pr-5 md:pr-0">Your one stop shop for all Programming needs</p>
+                    <p className="text-4xl md:text-6xl uppercase text-white w-[100%] md:w-[80%] pr-5 md:pr-0">Let us be your technological partners in progress</p>
                 </div>
                 
                 <div className="flex-1  hidden lg:block">

@@ -25,8 +25,8 @@ export default function Services(){
                     </div>
 
                     <div className="mt-5">
-                        <h5>Consultancy</h5>
-                        <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        <h5>IT Consultancy</h5>
+                        <p className="">We offer IT consulting services to help you develop and implement a technology strategy that meets your business needs.</p>
                     </div>
                 </div>
 
@@ -37,8 +37,8 @@ export default function Services(){
                     </div>
 
                     <div className="mt-5">
-                        <h5>Web Development</h5>
-                        <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        <h5>UI/UX design</h5>
+                        <p className="">Crafting exceptional user experiences is at the core of what we do. We design with your users in mind, ensuring that every click and swipe delights and adds value.</p>
                     </div>
                 </div>
 
@@ -49,8 +49,8 @@ export default function Services(){
                     </div>
 
                     <div className="mt-5">
-                        <h5>UI/UX</h5>
-                        <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        <h5>Web & Mobile App Development</h5>
+                        <p className="">Crafting custom, intuitive applications for both mobile and web, we elevate user experiences and deliver unparalleled value. From conception to ongoing support, we ensure your platforms are user-centric, secure, and ever-evolving.</p>
                     </div>
                 </div>
             </div>
