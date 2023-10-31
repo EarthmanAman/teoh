@@ -7,7 +7,7 @@ const imageLoader = require("../loader");
 
 export default function Steps(){
     return (
-        <div className="px-8 md:px-16 lg:px-36 py-8 lg:py-16 bg-[#2a363f] bg-opacity-40">
+        <div id="steps" className="px-8 md:px-16 lg:px-36 py-8 lg:py-16 bg-[#2a363f] bg-opacity-40">
             {/* TITLE */}
             <div className="text-center mb-14 lg:mb-0 px-10 lg:px-72">
                 <h4>How we do your work</h4>

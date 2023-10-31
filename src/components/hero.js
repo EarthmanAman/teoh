@@ -19,7 +19,7 @@ const imageLoader = require("../loader");
 
 export default function Hero(){
     return (
-        <div className="bg-world bg-cover">
+        <div id="home" className="bg-world bg-cover">
 
         <Swiper
             spaceBetween={30}

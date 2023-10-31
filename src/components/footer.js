@@ -7,7 +7,7 @@ import Logo from "../../public/logo.png"
 const imageLoader = require("../loader");
 export default function Footer(){
     return (
-        <div className="bg-[#2a363f] px-8 md:px-16 lg:px-72">
+        <div id="footer" className="bg-[#2a363f] px-8 md:px-16 lg:px-72">
             {/* TOP */}
             <div className="flex">
                 <div className="bg-gray-200 flex-[3] py-3 lg:py-5 lg:-skew-x-20 relative lg:-left-[400px] -top-5 shadow-lg shadow-gray-950 text-right rounded-lg px-16">

@@ -23,7 +23,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <Benefits />
-      <MiniBlog />
+      <MiniBlog/>
       <Banner />
       <Services />
       <Steps />

@@ -24,7 +24,7 @@ const imageLoader = require("../loader");
 
 export default function Services(){
     return (
-        <div className=" px-8 md:px-16 lg:px-36 py-16 md:py-28 bg-[#eee]">
+        <div id="services" className=" px-8 md:px-16 lg:px-36 py-16 md:py-28 bg-[#eee]">
             {/* TITLE */}
             <div className="text-center px-[10%] md:px-[20%]">
                 <h4>Our services</h4>
