@@ -18,15 +18,15 @@ export default function NavBar(){
                 <div className="">
                     <ul className="flex md:space-x-4 lg:space-x-8 uppercase">
                         <li className="text-medium-blue-color"><Link href={""}>Home</Link></li>
-                        <li><Link href={""}>About Us</Link></li>
-                        <li><Link href={""}>Services</Link></li>
-                        <li><Link href={""}>Projects</Link></li>
-                        <li><Link href={""}>Team</Link></li>
+                        <li><Link href={"#about"}>About Us</Link></li>
+                        <li><Link href={"#services"}>Services</Link></li>
+                        <li><Link href={"#steps"}>How We Work</Link></li>
+                        {/* <li><Link href={""}>Team</Link></li> */}
                     </ul>
                 </div>
 
                 <div>
-                    <Link href={""}>
+                    <Link href={"#footer"}>
                         <button className="px-3 py-2 mb:px-5 md:py-3 text-medium-blue-color border-2 border-medium-blue-color text-sm md:text-lg uppercase">Contact Us</button>
                     </Link>
                 </div>
@@ -40,7 +40,7 @@ export default function NavBar(){
                         <li className="text-medium-blue-color pb-3 mx-36 border-b-2 border-b-medium-blue-color"><Link href={""} onClick={() => setNavbar(!navbar)}>Home</Link></li>
                         <li className="text-gray-400 "><Link href={"#about"} onClick={() => setNavbar(!navbar)}>About Us</Link></li>
                         <li className="text-gray-400 "><Link href={"#services"} onClick={() => setNavbar(!navbar)}>Services</Link></li>
-                        <li className="text-gray-400"><Link href={"#steps"} onClick={() => setNavbar(!navbar)}>How We do your work</Link></li>
+                        <li className="text-gray-400"><Link href={"#steps"} onClick={() => setNavbar(!navbar)}>How We Work</Link></li>
                         {/* <li className="text-gray-400 "><Link href={""} onClick={() => setNavbar(!navbar)}>Team</Link></li> */}
                     </ul>
                 </div>
