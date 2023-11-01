@@ -13,6 +13,7 @@ export default function Footer(){
                 <div className="bg-gray-200 flex-[3] py-3 lg:py-5 lg:-skew-x-20 relative lg:-left-[400px] -top-5 shadow-lg shadow-gray-950 text-right rounded-lg px-16">
                     <h5>Need Help?</h5>
                     <h3 className="text-medium-green-color leading-6">(+254) 701-467872</h3>
+                    <h4 className="text-medium-blue-color leading-6">contact@teoh.co.ke</h4>
                 </div>
                 <div className="flex-1">
 
