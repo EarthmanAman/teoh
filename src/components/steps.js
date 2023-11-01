@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Forward from "../../public/steps/forward.svg"
 import Step1 from "../../public/steps/step1.svg"
+import Step2 from "../../public/steps/step2.svg"
+import Step3 from "../../public/steps/step3.svg"
+import Step4 from "../../public/steps/step4.svg"
+import Step5 from "../../public/steps/step5.svg"
 
 const imageLoader = require("../loader");
 
@@ -37,7 +41,7 @@ export default function Steps(){
                     <h5 className="text-medium-blue-color mb-3">Step 2</h5>
                     <h4 className="leading-8 mb-5">Planning Your Solution</h4>
                     <div>
-                        <Image loader={imageLoader} src={Step1} />
+                        <Image loader={imageLoader} src={Step2} />
                     </div>
                     <p className="text-white md:px-16 lg:px-0">Upon gathering your requirements, we create a detailed project plan, including visual prototypes, to outline your digital solution.</p>
                 </div>
@@ -53,7 +57,7 @@ export default function Steps(){
                     <h5 className="text-medium-blue-color mb-3">Step 3</h5>
                     <h4 className="leading-8 mb-5">Building Your Solution</h4>
                     <div>
-                        <Image loader={imageLoader} src={Step1} />
+                        <Image loader={imageLoader} src={Step3} />
                     </div>
                     <p className="text-white md:px-16 lg:px-0">Here, we roll up our sleeves and begin constructing your digital solution, using the plan and prototypes as our roadmap to transform your vision into a reality.</p>
                 </div>
@@ -70,7 +74,7 @@ export default function Steps(){
                     <h5 className="text-medium-blue-color mb-3">Step 4</h5>
                     <h4 className="leading-8 mb-5">Making Sure It Works Together</h4>
                     <div>
-                        <Image loader={imageLoader} src={Step1} />
+                        <Image loader={imageLoader} src={Step4} />
                     </div>
                     <p className="text-white md:px-16 lg:px-0">We ensure seamless integration of solution components, akin to fitting puzzle pieces together, and rigorously test for issues before it's ready for your use.</p>
                 </div>
@@ -86,7 +90,7 @@ export default function Steps(){
                     <h5 className="text-medium-blue-color mb-3">Step 5</h5>
                     <h4 className="leading-8 mb-5">Putting It into Action   </h4>
                     <div>
-                        <Image loader={imageLoader} src={Step1} />
+                        <Image loader={imageLoader} src={Step5} />
                     </div>
                     <p className="text-white md:px-16 lg:px-0">This is the thrilling moment when we launch your new system or website, ready for you and your users to use, akin to opening the doors to a new store or revealing a new product.</p>
                 </div>

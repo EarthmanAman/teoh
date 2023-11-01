@@ -1,6 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import Web from "../../public/hero/development.png"
+import Solution from "../../public/hero/solution.png"
+import Team from "../../public/hero/team.png"
+import Teoh from "../../public/hero/teoh.png"
 
 import {SiFacebook, SiInstagram, SiTwitter, SiLinkedin} from "react-icons/si";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -93,8 +96,8 @@ export default function Hero(){
                         {/* IMAGE */}
                         <div className="hidden md:block flex-1 relative -top-32 lg:-top-10">
                             <div className="w-[650px] h-[550px] bg-gradient-to-b from-blue-500 to-green-500 filter blur-[100px] opacity-40 rounded-full"></div>
-                            <div className="absolute top-36">
-                                <Image loader={imageLoader} src={Web} className="w-[60%] md:w-[70%] h-auto" alt="web" />
+                            <div className="absolute top-20">
+                                <Image loader={imageLoader} src={Solution} className="w-[60%] md:w-[90%] h-auto" alt="web" />
                             </div>
                             
                         </div>
@@ -127,8 +130,8 @@ export default function Hero(){
                         {/* IMAGE */}
                         <div className="hidden md:block flex-1 relative -top-32 lg:-top-10">
                             <div className="w-[650px] h-[550px] bg-gradient-to-b from-blue-500 to-green-500 filter blur-[100px] opacity-40 rounded-full"></div>
-                            <div className="absolute top-36">
-                                <Image loader={imageLoader} src={Web} className="w-[60%] md:w-[70%] h-auto" alt="web" />
+                            <div className="absolute top-20">
+                                <Image loader={imageLoader} src={Team} className="w-[60%] md:w-[90%] h-auto" alt="web" />
                             </div>
                             
                         </div>
@@ -160,8 +163,8 @@ export default function Hero(){
                         {/* IMAGE */}
                         <div className="hidden md:block flex-1 relative -top-32 lg:-top-10">
                             <div className="w-[650px] h-[550px] bg-gradient-to-b from-blue-500 to-green-500 filter blur-[100px] opacity-40 rounded-full"></div>
-                            <div className="absolute top-36">
-                                <Image loader={imageLoader} src={Web} className="w-[60%] md:w-[70%] h-auto" alt="web" />
+                            <div className="absolute top-20">
+                                <Image loader={imageLoader} src={Teoh} className="w-[60%] md:w-[90%] h-auto" alt="web" />
                             </div>
                             
                         </div>
