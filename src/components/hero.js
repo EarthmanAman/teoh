@@ -37,6 +37,7 @@ export default function Hero(){
             // className="mySwiper"
         >
             <SwiperSlide>
+  
                 <div className="flex space-x-10 md:space-x-16 bg-black  bg-opacity-10 px-8 md:px-16 lg:px-36 md:min-h-[600px]">
                     {/* SOCIAL MEDIA */}
                     <div className="flex flex-col space-y-4 justify-center">
