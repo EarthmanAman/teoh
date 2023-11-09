@@ -9,19 +9,18 @@ export default function Footer(){
     return (
         <div id="footer" className="bg-[#2a363f] px-8 md:px-16 lg:px-72">
             {/* TOP */}
-            <div className="flex">
-                <div className="bg-gray-200 flex-[3] py-3 lg:py-5 lg:-skew-x-20 relative lg:-left-[400px] -top-5 shadow-lg shadow-gray-950 text-right rounded-lg px-16">
+           
+            <div className="bg-gray-200  py-3 lg:-skew-x-20 relative lg:-left-[700px] -top-5 shadow-lg shadow-gray-950 rounded-lg px-5 lg:px-16">
+                <div className="lg:skew-x-20 text-right">
                     <h5>Need Help?</h5>
-                    <h3 className="text-medium-green-color leading-6">(+254) 701-467872</h3>
-                    <h4 className="text-medium-blue-color leading-6">contact@teoh.co.ke</h4>
-                </div>
-                <div className="flex-1">
-
+                    <h3 className="text-medium-green-color leading-4">(+254) 701-467872</h3>
+                    <h4 className="text-medium-blue-color leading-4">contact@teoh.co.ke</h4>
                 </div>
             </div>
 
+
             {/* BOTTOM */}
-            <div className="flex flex-col lg:flex-row space-y-5 justify-between text-center lg:text-left items-center lg:items-start py-10 lg:py-20">
+            <div className="flex flex-col lg:flex-row space-y-5 lg:space-y-0 justify-between text-center lg:text-left items-center lg:items-start py-10 lg:py-20">
                 <div>
                     <h5 className="text-white">Application Development</h5>
                     <ul>

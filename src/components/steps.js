@@ -15,22 +15,21 @@ export default function Steps(){
             {/* TITLE */}
             <div className="text-center mb-14 lg:mb-0 px-10 lg:px-72">
                 <h4>How we do your work</h4>
-                <p className="text-white">At TEOH, we believe in an agile approach to problem-solving. This means we work closely with you, adapting and refining our solutions as we go, ensuring that your needs are met efficiently and effectively. With this collaborative and flexible approach, we aim to deliver results that truly align with your vision and goals.</p>
+                <p className="text-white">We chat to understand your unique needs and goals, forming a clear picture of your objectives.</p>
             </div>
 
             <div className="flex flex-col lg:flex-row space-x-3 items-center px-6 md:px-24 lg:px-0">
                 {/* STEP */}
                 <div className="flex-1 flex flex-col items-center text-center rounded-full shadow-lg p-10 bg-[#2a363f] bg-opacity-20">
-                    <h5 className="text-medium-blue-color mb-3">Step 1</h5>
+                    <h5 className="text-blue-100 mb-3">Step 1</h5>
                     <h4 className="leading-8 mb-5">Understanding Your Needs</h4>
                     <div>
                         <Image loader={imageLoader} src={Step1} />
                     </div>
-                    <p className="text-white md:px-16 lg:px-0">We begin by engaging in in-depth conversations with you to comprehensively grasp your unique needs and goals, forming a clear understanding of your objectives.
-</p>
+                    <p className="text-white md:px-16 lg:px-0">We talk to understand your needs and goals, forming a clear picture of your objectives.</p>
                 </div>
 
-                <div className="flex-[0.5] hidden lg:flex justify-center">
+                <div className="flex-[0.3] hidden lg:flex justify-center">
                     <div>
                         <Image loader={imageLoader} src={Forward} />
                     </div>
@@ -38,15 +37,15 @@ export default function Steps(){
 
                {/* STEP */}
                <div className="mt-10 lg:mt-56 flex-1 flex flex-col items-center text-center rounded-full shadow-lg p-10 bg-[#2a363f] bg-opacity-20">
-                    <h5 className="text-medium-blue-color mb-3">Step 2</h5>
+                    <h5 className="text-blue-100 mb-3">Step 2</h5>
                     <h4 className="leading-8 mb-5">Planning Your Solution</h4>
                     <div>
                         <Image loader={imageLoader} src={Step2} />
                     </div>
-                    <p className="text-white md:px-16 lg:px-0">Upon gathering your requirements, we create a detailed project plan, including visual prototypes, to outline your digital solution.</p>
+                    <p className="text-white md:px-16 lg:px-0">We gather your needs and create a detailed project plan with visual prototypes for your digital solution.</p>
                 </div>
 
-                <div className="flex-[0.5] hidden lg:flex  justify-center">
+                <div className="flex-[0.3] hidden lg:flex  justify-center">
                     <div>
                         <Image loader={imageLoader} src={Forward} />
                     </div>
@@ -54,15 +53,15 @@ export default function Steps(){
 
                 {/* STEP */}
                 <div className="mt-10 lg:mt-0 flex-1 flex flex-col items-center text-center rounded-full shadow-lg p-10 bg-[#2a363f] bg-opacity-20">
-                    <h5 className="text-medium-blue-color mb-3">Step 3</h5>
+                    <h5 className="text-blue-100 mb-3">Step 3</h5>
                     <h4 className="leading-8 mb-5">Building Your Solution</h4>
                     <div>
                         <Image loader={imageLoader} src={Step3} />
                     </div>
-                    <p className="text-white md:px-16 lg:px-0">Here, we roll up our sleeves and begin constructing your digital solution, using the plan and prototypes as our roadmap to transform your vision into a reality.</p>
+                    <p className="text-white md:px-16 lg:px-0">We get to work building your digital solution, using the plan and prototypes to turn your vision into reality.</p>
                 </div>
 
-                <div className="flex-[0.5] hidden lg:flex justify-center">
+                <div className="flex-[0.3] hidden lg:flex justify-center">
                     <div>
                         <Image loader={imageLoader} src={Forward} />
                     </div>
@@ -71,15 +70,15 @@ export default function Steps(){
 
                 {/* STEP */}
                 <div className="mt-10 lg:mt-56 flex-1 flex flex-col items-center text-center rounded-full shadow-lg p-10 bg-[#2a363f] bg-opacity-20">
-                    <h5 className="text-medium-blue-color mb-3">Step 4</h5>
+                    <h5 className="text-blue-100 mb-3">Step 4</h5>
                     <h4 className="leading-8 mb-5">Making Sure It Works Together</h4>
                     <div>
                         <Image loader={imageLoader} src={Step4} />
                     </div>
-                    <p className="text-white md:px-16 lg:px-0">We ensure seamless integration of solution components, akin to fitting puzzle pieces together, and rigorously test for issues before it's ready for your use.</p>
+                    <p className="text-white md:px-16 lg:px-0">We integrate solution components like puzzle pieces and thoroughly test for issues before it's ready for your use.</p>
                 </div>
 
-                <div className="flex-[0.5] hidden lg:flex justify-center">
+                <div className="flex-[0.3] hidden lg:flex justify-center">
                     <div>
                         <Image loader={imageLoader} src={Forward} />
                     </div>
@@ -87,12 +86,12 @@ export default function Steps(){
 
                 {/* STEP */}
                 <div className="mt-10 : lg:mt-0 flex-1 flex flex-col items-center text-center rounded-full shadow-lg p-10 bg-[#2a363f] bg-opacity-20">
-                    <h5 className="text-medium-blue-color mb-3">Step 5</h5>
+                    <h5 className="text-blue-100 mb-3">Step 5</h5>
                     <h4 className="leading-8 mb-5">Putting It into Action   </h4>
                     <div>
                         <Image loader={imageLoader} src={Step5} />
                     </div>
-                    <p className="text-white md:px-16 lg:px-0">This is the thrilling moment when we launch your new system or website, ready for you and your users to use, akin to opening the doors to a new store or revealing a new product.</p>
+                    <p className="text-white md:px-16 lg:px-0">We launch your new system or website, ready for you and your users to use, like revealing a new product.</p>
                 </div>
 
             </div>
