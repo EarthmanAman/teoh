@@ -55,7 +55,7 @@ export default function Footer(){
                         <Image loader={imageLoader} src={Logo} className="w-[100%] h-auto" alt="about" />
                     </div>
                     <div>
-                        <p className="text-white text-sm text-center lg:text-right">Canopy, Zimmerman</p>
+                        {/* <p className="text-white text-sm text-center lg:text-right">Canopy, Zimmerman</p> */}
                         <p className="text-white text-sm text-center lg:text-right">Nairobi, Kenya</p>
                         <p className="text-white text-sm text-center lg:text-right"><span>(254)</span> 70146 7872</p>
                     </div>

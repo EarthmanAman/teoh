@@ -60,7 +60,7 @@ export default function Services(){
                     // className="mySwiper"
                 >
                     {/* SERVICE */}
-                    <SwiperSlide className=" shadow-lg px-10 py-10 rounded-lg bg-white lg:min-h-[550px]">
+                    <SwiperSlide className=" shadow-lg px-10 py-10 rounded-lg bg-white min-h-[550px]">
                         <div className="max-h-[250px] rounded-lg overflow-hidden">
                             <Image loader={imageLoader} src={Consulting} alt="service 1" className=" rounded-lg shadow-lg"/>
                         </div>
