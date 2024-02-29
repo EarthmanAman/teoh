@@ -24,18 +24,18 @@ export default function Footer(){
                 <div>
                     <h5 className="text-white">Application Development</h5>
                     <ul>
-                        <li className="text-medium-green-color font-normal">Web design</li>
-                        <li className="text-medium-green-color font-normal">Mobile design</li>
-                        <li className="text-medium-green-color font-normal">Desktop design</li>
+                        <li className="text-green-100 font-normal">Web design</li>
+                        <li className="text-green-100 font-normal">Mobile design</li>
+                        <li className="text-green-100 font-normal">Desktop design</li>
                     </ul>
                 </div>
 
                 <div>
                     <h5 className="text-white">Consultancy</h5>
                     <ul>
-                        <li className="text-medium-green-color font-normal">Web design</li>
-                        <li className="text-medium-green-color font-normal">Mobile design</li>
-                        <li className="text-medium-green-color font-normal">Desktop design</li>
+                        <li className="text-green-100 font-normal">Web design</li>
+                        <li className="text-green-100 font-normal">Mobile design</li>
+                        <li className="text-green-100 font-normal">Desktop design</li>
                     </ul>
                 </div>
 
@@ -43,21 +43,21 @@ export default function Footer(){
                     <h5 className="text-white mb-3">Follow Us</h5>
                     {/* SOCIAL MEDIA */}
                     <div className="flex  space-x-4 lg:justify-center">
-                        <SiFacebook color="#4267B2" size={30}/>
-                        <SiInstagram color="orangered" size={30}/>
-                        <SiTwitter color="#1DA1F2" size={30}/>
-                        <SiLinkedin color="#0077b5" size={30}/>
+                        <a href="https://www.facebook.com/teohkenya" target="_blank"><SiFacebook color="#4267B2" size={30}/></a>
+                        <a href="https://www.instagram.com/teohkenya/" target="_blank"><SiInstagram color="orangered" size={30}/></a>
+                        <a href="https://x.com/kenya_teoh?t=xDRzK-uFHtZMGUrpOYq1FQ&s=09" target="_blank"><SiTwitter color="#1DA1F2" size={30}/></a>
+                        {/* <a href=""><SiLinkedin color="#0077b5" size={30}/></a> */}
                     </div>
                 </div>
 
                 <div>
-                    <div className="w-24">
+                    <div className="w-24 md:w-40">
                         <Image loader={imageLoader} src={Logo} className="w-[100%] h-auto" alt="about" />
                     </div>
                     <div>
                         {/* <p className="text-white text-sm text-center lg:text-right">Canopy, Zimmerman</p> */}
-                        <p className="text-white text-sm text-center lg:text-right">Nairobi, Kenya</p>
-                        <p className="text-white text-sm text-center lg:text-right"><span>(254)</span> 70146 7872</p>
+                        <p className="text-white text-sm text-center lg:text-left">Nairobi, Kenya</p>
+                        <p className="text-white text-sm text-center lg:text-left"><span>(254)</span> 70146 7872</p>
                     </div>
                 </div>
             </div>

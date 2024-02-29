@@ -9,8 +9,10 @@ export default function Banner (){
                 
                 <div className="flex-1  hidden lg:block">
                     
-                    <div className="bg-black h-full -skew-x-20 w-[120%]">
-                        <p> </p>
+                    <div className="bg-black h-full -skew-x-20 w-[120%] flex justify-center items-center pr-24">
+                    <a href="#footer">
+                        <button className="bg-white px-10 py-4 transform skew-x-20 rounded-md uppercase font-bold">Request Quote</button>
+                    </a>
                     </div>
                 </div>
                 

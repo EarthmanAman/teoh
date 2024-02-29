@@ -10,7 +10,7 @@ export default function NavBar(){
     const [navbar, setNavbar] = useState(false)
     return (
         <div className={`${navbar ? 'fixed z-50 bg-gray-100 w-full' : null} flex justify-between items-center px-8 py-3 md:px-16 lg:px-36`}>
-            <div className="w-16 md:w-24">
+            <div className="w-16 md:w-32">
                 <Image loader={imageLoader} src={Logo} className="w-[100%] h-auto" alt="about" />
             </div>
 
